@@ -91,6 +91,10 @@ def play_game():
         print("Congratulations! You won!")
     elif winner == 'O':
         print("Sorry, the computer won. Try again!")
+        time.sleep(0.5)
+        print("MaximaxAI: Hmm... ")
+        time.sleep(0.5)
+        print("MaximaxAI: Good start for me to take over humanity.")
     else:
         print("It's a tie. Well played!")
 
